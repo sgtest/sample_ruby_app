@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    sample_ruby_app (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sample_ruby_gem (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sample_ruby_app!
+  sample_ruby_gem (~> 0.0.1)
