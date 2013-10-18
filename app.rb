@@ -17,3 +17,14 @@ puts s.my_method(3, "bar")
 puts "MY_GLOBAL_CONST: #{MY_GLOBAL_CONST}"
 
 puts MY_SAMPLE.class.name
+
+class App
+  def run
+    puts Sample.new(7).inspect
+    require 'ipaddr'
+    ip = IPAddr.new('127.0.0.1')
+    puts ip.reverse
+  end
+end
+
+App.new.run
